@@ -14,7 +14,8 @@ Expanding on STEP1, we came across many methods and various sensors to track the
 
 ## Exploring various Modules -  
 ### The nrf24l01 module- 
- For detailed information regarding this sensor, please refer to its datasheet at          https://www.sparkfun.com/datasheets/Components/nRF24L01_prelim_prod_spec_1_2.pdf 
+ For detailed information regarding this sensor, please refer to its datasheet at          https://www.sparkfun.com/datasheets/Components/nRF24L01_prelim_prod_spec_1_2.pdf
+ 
  **Pros** -
  * Transmitted signal can be recieved in fairly good strength across physical barriers like walls, or people moving around. Has a long      range of operation.
  
@@ -25,6 +26,7 @@ Expanding on STEP1, we came across many methods and various sensors to track the
 ### The nrf51822 module-
   For detailed information regarding this sensor, please refer to its datasheet at 
   https://www.nordicsemi.com/-/media/Software-and-other-downloads/Product-Briefs/nRF51822-product-brief.pdf?la=en&hash=A4B5A9AA6675A58F7B779AF81C860CD69EB867FD
+  
   **Pros**-
   * RSSI values can be easily detected and this can be further used to determine the distance between the bot and the target object.
   * Has BLE
@@ -35,6 +37,7 @@ Expanding on STEP1, we came across many methods and various sensors to track the
 ### The hc-05 bluetooth module- 
   For detailed information regarding this sensor, please refer to its comprehensive guide at
   http://www.electronicaestudio.com/docs/istd016A.pdf
+  
   **Pros**-
   * RSSI values can be detected. 
   * Uses bluetooth and thus eliminates the need of a transmittor-reciever pair. Our phones, or any blutooth enabled device can act as a     transmittor. 
